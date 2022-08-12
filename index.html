@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <title>lesson-3</title>
+  </head>
+  <body>
+    <main class="site-main">
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero">
+            <h1 class="movie__title fw-bold text-center mt-2 fs-1">
+              Movies catalog
+            </h1>
+            <div class="container overflow-hidden">
+              <div class="row gx-5">
+                <div class="col-lg-4">
+                  <div class="movie__form col-lg-12">
+                    <form action="https://echo.htmlacademy.ru/" class="mb-4">
+                      <div class="mb-3">
+                        <input
+                          type="text"
+                          class="form-control"
+                          aria-describedby="textHelp"
+                          value="ave"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <input
+                          type="text"
+                          class="form-control"
+                          aria-describedby="textHelp"
+                          value="5"
+                        />
+                      </div>
+                      <select
+                        class="form-select mb-3"
+                        aria-label="Default select example"
+                      >
+                        <option selected>All</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                      <select
+                        class="form-select mb-3"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Raiting high to low</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                      <button type="submit" class="w-100 btn btn-primary">
+                        Search
+                      </button>
+                    </form>
+                    <div class="movie__content-footer d-flex flex-column">
+                      <h2 class="fs-2 fw-bold mb-2">Bookmarked movies</h2>
+                      <div class="rounded-top border p-3 px-4">
+                        <h3 class="card-text">Avengers: Infinity War</h3>
+                        <a href="#link" class="btn btn-danger">Remove</a>
+                      </div>
+                      <div class="border p-3 px-4">
+                        <h3 class="card-text">The Avengers</h3>
+                        <a href="#link" class="btn btn-danger">Remove</a>
+                      </div>
+                      <div class="rounded-bottom border p-3 px-4">
+                        <h3 class="card-text">12 Years a Slave</h3>
+                        <a href="#link" class="btn btn-danger">Remove</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="p-10">
+                    <h3>Search results:39</h3>
+                    <div class="alert alert-success" role="alert ">
+                      Use the form on the left to search for a movie
+                    </div>
+                    <div class="d-flex  mb-5 me--2rem">
+                      <div class="card m-md-2" style="width: 28rem">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="./images/img1.png" class="d-block w-100" alt="..." width="250" height="250">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/img2.jpg" class="d-block w-100" alt="..." width="250" height="250">
+                          
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/betmen.jfif" class="d-block w-100" alt="..." width="250" height="250">
+                        
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/cerpawka.jfif" class="d-block w-100" alt="..." width="250" height="250">
+                      
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/jooker.jfif" class="d-block w-100" alt="..." width="250" height="250">
+                    
+                     </div>
+                        <div class="carousel-item">
+                      <img src="./images/pauj.jfif" class="d-block w-100" alt="..." width="250" height="250">
+                  
+                         </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Avengers:Infinity War</h5>
+                          <p class="card-text">
+                            <i class="bi bi-calendar-fill ml-2"></i>
+                            <strong>2018</strong>
+                            <br />d-flex justify-content-center
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i>8.7</i>
+                          </p>
+                          <div class="d-flex flex-column ">
+                            <a href="#" class="btn btn-primary mb-1">Watch trailer</a>
+                            <a href="#" class="btn btn-primary mb-1">More info</a>
+                            <a href="#" class="btn btn-primary mb-1">Bookmark</a>
+                          </div>
+                        </div>
+                        <ul class="nav nav-tabs d-flex justify-content-center">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">1</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">2</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">3</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="">4</a>
+                          </li>
+                        </ul>
+                      </div>
+                      </div>
+                      <div class="card m-md-2" style="width: 28rem">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="./images/img2.jpg" class="d-block w-100" alt="Avengers" width="250" height="250">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/img1.png" class="d-block w-100" alt="infinity War" width="250" height="250">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/jooker.jfif" class="d-block w-100" alt="jooker" width="250" height="250">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/betmen.jfif" class="d-block w-100" alt="betmen" width="250" height="250">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/cerpawka.jfif" class="d-block w-100" alt="cerpawka" width="250" height="250">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/pauj.jfif" class="d-block w-100" alt="pauk" width="250" height="250">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Avengers:Infinity War</h5>
+                          <p class="card-text">
+                            <i class="bi bi-calendar-fill"></i>
+                            <strong>2012</strong>                           
+                            <br />
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <strong>8.1</strong>
+                          </p>
+                          <div class="d-flex flex-column ">
+                            <a href="#" class="btn btn-primary mb-1">Watch trailer</a>
+                            <a href="#" class="btn btn-primary mb-1">More info</a>
+                            <a href="#" class="btn btn-primary mb-1">Bookmark</a>
+                          </div>
+                        </div>
+                        <ul class="nav nav-tabs d-flex justify-content-center">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">1</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">2</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">3</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">4</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
